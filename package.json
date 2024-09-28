@@ -1,0 +1,33 @@
+{
+  "name": "jian-form",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.js",
+  "scripts": {
+    "dev": "farm watch",
+    "start": "farm start",
+    "build": "farm build",
+    "preview": "farm preview",
+    "clean": "farm clean"
+  },
+  "devDependencies": {
+    "@farmfe/cli": "^1.0.2",
+    "@farmfe/core": "^1.3.0",
+    "@farmfe/js-plugin-dts": "^0.6.4",
+    "@farmfe/plugin-react": "^1.2.0",
+    "@types/jsonpath": "^0.2.4",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "core-js": "^3.36.1",
+    "jsonpath": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-refresh": "^0.14.0"
+  },
+  "peerDependencies": {
+    "jsonpath": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
